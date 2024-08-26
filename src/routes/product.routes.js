@@ -1,23 +1,10 @@
-const Router = require("express").Router();
-const Product = require("../models/product.model");
+const router = require("express").Router();
+const productsController = require("../controllers/products.controller");
 
-Router.post("/", async function (req, res) {
-  try {
-    const product = new Product(req.body);
-    await product.save();
-    res.status(200).json("Creado");
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
+router.post("/", productsController.create);
+router.get("/", productsController.findAll);
+router.get("/:id", productsController.findOne);
+router.patch("/:id", productsController.update);
+router.delete("/:id", productsController.delete);
 
-Router.get("/", async function (req, res) {
-  try {
-    const products = await Product.find();
-    res.status(200).json(products);
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
-
-module.exports = Router;
+module.exports = router;
