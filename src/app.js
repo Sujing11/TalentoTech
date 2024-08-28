@@ -17,7 +17,7 @@ mongoose
   .catch((err) => console.log(err));
 
 // configuraciones
-app.use(express.urlencoded({ extended: false }))
+app.use(express.json());
 
 // configurar rutas
 app.get("/", function (req, res) {
