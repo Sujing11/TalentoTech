@@ -6,6 +6,10 @@ const ImagenesSchema = new mongoose.Schema(
       type: String,
       required: true
     },
+    name: {
+      type: String,
+      required: true
+    }
   },
   { _id: false } // Evita la creación de un _id para cada imagen.
 );
