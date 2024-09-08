@@ -1,4 +1,4 @@
-# API - E-COMMERCE - NODEJS - EXPRESS - MONGODB
+# API - E-COMMERCE - PRODUCTOS GEMAS
 
 Versión 1.0.0
 
@@ -91,7 +91,7 @@ Para los enpoints puedes utilizar [POSTMAN] o [Thunder Client]
 - /sales: Rutas relacionadas con la gestión de ventas.
 - /contacts: Rutas para manejar los contactos de los usuarios.
 
-## Deploy 🚀
+## Deploy del backend 🚀
 
 Utilicé [vercel.com](https://vercel.com/) para el despliegue, tiene un plan gratuito y es fácil de asociar con GitHub. La desventaja es que no hay servidores en Sudamérica, lo que puede ralentizar la interacción con la aplicación.
 
@@ -104,3 +104,15 @@ Enlace a la [api](https://talentotech-64pku1h0f-dianas-projects-3e11313d.vercel.
 Este proyecto me permitió adquirir conocimientos y habilidades en el desarrollo de aplicaciones backend con Node.js y MongoDB, así como en el uso del framework Express.js, para crear una API REST.
 
 Este proyecto me permitió aplicar muchos de los conceptos y herramientas aprendidos en el curso de Desarrollo Web Full Stack, y me dejó una base sólida para seguir aprendiendo y mejorando en el futuro.
+
+## Frontend
+
+Aqui esta el [Frontend](https://github.com/Sujing11/web.git)
+
+## Deploy Final
+
+Puedes visitar el sitio web [Productos Gemas](https://progemas.netlify.app)
+
+
+
+
