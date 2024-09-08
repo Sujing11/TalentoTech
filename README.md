@@ -1,12 +1,12 @@
-# API - E-COMMERCE - NODEJS - EXPRESS - MONGODB
+# API - E-COMMERCE - PRODUCTOS GEMAS
 
 Versión 1.0.0
 
-Descripción
+## Descripción
 
 Gemas es una plataforma de comercio electrónico diseñada para la venta de productos naturales. Este proyecto proporciona una interfaz sencilla y efectiva para que los usuarios naveguen, seleccionen y compren productos naturales. El backend está construido con Node.js y Express, y utiliza MongoDB para el almacenamiento de datos.
 
-Características
+## Características
 
 - Gestión de Productos: Crear, leer, actualizar y eliminar productos desde el backend.
 - Rutas API: Rutas bien definidas para manejar productos, ventas y contactos.
@@ -91,7 +91,7 @@ Para los enpoints puedes utilizar [POSTMAN] o [Thunder Client]
 - /sales: Rutas relacionadas con la gestión de ventas.
 - /contacts: Rutas para manejar los contactos de los usuarios.
 
-## Deploy 🚀
+## Deploy del backend 🚀
 
 Utilicé [vercel.com](https://vercel.com/) para el despliegue, tiene un plan gratuito y es fácil de asociar con GitHub. La desventaja es que no hay servidores en Sudamérica, lo que puede ralentizar la interacción con la aplicación.
 
@@ -112,3 +112,7 @@ Aqui esta el [Frontend](https://github.com/Sujing11/web.git)
 ## Deploy Final
 
 Puedes visitar el sitio web [Productos Gemas](https://progemas.netlify.app)
+
+
+
+
