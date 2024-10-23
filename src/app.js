@@ -9,6 +9,7 @@ app.use(cors());
 const productRoutes = require('./routes/product.routes')
 const salesRoutes = require("./routes/sale.routes")
 const contactRoute = require("./routes/contacts.routes");
+const userRoute = require("./routes/user.routes");
 require("dotenv").config();
 
 // conectamos a mongoose
@@ -27,6 +28,7 @@ app.get("/", function (req, res) {
 app.use("/products", productRoutes);
 app.use("/sales", salesRoutes);
 app.use("/contacts", contactRoute);
+app.use("/users", userRoute);
 
 app.listen(3000, () => {
   console.log("Server Running");
